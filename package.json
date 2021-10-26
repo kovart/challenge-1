@@ -1,7 +1,7 @@
 {
-  "name": "forta-compound-unusual-transfer-agent",
+  "name": "compound-ctoken-exchange-rate-agent",
   "version": "0.0.1",
-  "description": "Forta Compound Unusual Transfer Agent",
+  "description": "Compound cToken Exchange Rate Agent",
   "scripts": {
     "build": "tsc",
     "start": "npm run start:dev",
