@@ -10,9 +10,9 @@ To make the agent more testable, all Compound configs are parsed
 from the [compound-finance/compound-config](https://github.com/compound-finance/compound-config)
 official repository and used depending on the `network` property provided in the block event.
 
-## VARIABLES
+## Variables
 
-ALERT_DROP_RATE: `number`
+#### ALERT_DROP_RATE: `number`
 - Describes the minimum change needed to trigger the alert.
 - Can be positive or negative
 
