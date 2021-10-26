@@ -31,13 +31,6 @@ function provideHandleBlock(web3: Web3, storage: TokenStorage, alertDropRate: nu
 
       storage.save(cToken.symbol, currentExchangeRate);
 
-      console.log({
-        previousExchangeRate,
-        currentExchangeRate,
-        dropRate: dropRate.toString(),
-        dropPercent
-      });
-
       const isDropped = dropRate.isGreaterThanOrEqualTo(0);
       const action = isDropped ? 'dropped' : 'increased';
       const type = isDropped ? FindingType.Suspicious : FindingType.Info;
