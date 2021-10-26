@@ -31,7 +31,7 @@ const ALERT_DROP_RATE = -2.5; // alert if increased by 250% or more
 ## Alerts
 
 - COMP-CTOKEN-RATE-0
-  - Fired when cToken exchange rate has changed by more than `alertDropRate`
+  - Fired when cToken exchange rate has changed by `ALERT_DROP_RATE` or more
   - Severity is always set to "medium"
   - Type is set to "high" if the rate decreased, and "info" if it increased
   - `Metadata` 
